@@ -14,5 +14,11 @@
 }
 
 header{
-    background-color: var(--dark);
+    background-color: #161616;
+}
+
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
