@@ -34,8 +34,27 @@
     color: var(--dark);
 }
 
+.flex-1 {
+    flex: 1;
+}
+
 .btn-primary:hover {
     border-color: var(--primary);
     background: transparent;
     color: var(--primary);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-secondary:hover {
+    background: var(--primary);
+    color: var(--pure);
+}
+
+.justify-center {
+    justify-content: center;
 }

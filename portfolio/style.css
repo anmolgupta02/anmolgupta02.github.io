@@ -16,7 +16,7 @@
 
 header {
     background-color: #161616;
-    height: 800px;
+    clip-path: polygon( 0 0, 100% 0, 100% 100%, 70% 85%, 0 100%);
 }
 
 .container {
@@ -54,8 +54,14 @@ header nav .branding {
     margin-right: 6rem;
 }
 
-h6 {
+.hero {
+    padding: 3rem 0;
+}
+
+.hero .hero-right h6 {
+    font-size: 1.6rem;
     color: var(--primary);
+    margin-bottom: 0.5rem;
 }
 
 .hero-right {
@@ -65,4 +71,28 @@ h6 {
 
 .hero .hero-left img {
     width: 500px;
+}
+
+.hero .hero-right {
+    color: var(--pure);
+}
+
+.hero .hero-right h1 {
+    line-height: 1.2;
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+.hero .hero-right h1 span {
+    color: var(--primary);
+}
+
+.hero .hero-right p {
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+
+.hero .hero-right {
+    margin-top: -1rem;
 }
