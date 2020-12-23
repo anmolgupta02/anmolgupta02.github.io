@@ -1,61 +1,68 @@
 @import 'utilities.css';
-
-:root{
-    --primary:#0C98E2;
-    --dark:#161616;
+:root {
+    --primary: #0C98E2;
+    --dark: #161616;
     --pure: #ffffff;
     --ternary: #A1AAB5;
-    --light: F2F2F2;    
+    --light: F2F2F2;
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     -webkit-font-smotthing: antialised;
 }
 
-header{
+header {
     background-color: #161616;
     height: 800px;
 }
 
-.container{
+.container {
     max-width: 1152px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
-header nav .left a{
+header nav .left a {
     color: white;
     text-decoration: none;
     margin-right: 1.6rem;
     text-transform: uppercase;
-    transition: all .3s ease ;
+    transition: all .3s ease;
 }
-header nav .left a:hover{
+
+header nav .left a:hover {
     color: var(--primary);
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
-.center-it{
+
+.center-it {
     align-items: center;
     padding: 0.8rem 0;
 }
-header nav{
+
+header nav {
     padding: 2rem 0;
 }
 
-header nav .branding{
+header nav .branding {
     margin-right: 6rem;
 }
 
-.btn{
-
+h6 {
+    color: var(--primary);
 }
 
-.btn-primary{
-    
+.hero-right {
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.hero .hero-left img {
+    width: 500px;
 }

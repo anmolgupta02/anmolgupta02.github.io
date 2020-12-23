@@ -1,24 +1,24 @@
-:root{
-    --primary:#0C98E2;
-    --dark:#161616;
+:root {
+    --primary: #0C98E2;
+    --dark: #161616;
     --pure: #ffffff;
     --ternary: #A1AAB5;
-    --light: F2F2F2;    
+    --light: F2F2F2;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.items-center{
+.items-center {
     align-items: center;
 }
 
-.justify-between{
+.justify-between {
     justify-content: space-between;
 }
 
-.btn{
+.btn {
     padding: 0.8rem 3rem;
     font-size: 1rem;
     font-weight: 600;
@@ -29,14 +29,13 @@
     transition: all .3s ease;
 }
 
-
-.btn-primary{
+.btn-primary {
     background: var(--primary);
     color: var(--dark);
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     border-color: var(--primary);
     background: transparent;
-    color: var(--primary);   
+    color: var(--primary);
 }
