@@ -37,6 +37,11 @@ header nav .left a:hover {
     color: var(--primary);
 }
 
+.branding img {
+    width: 150px;
+    height: 75px;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
