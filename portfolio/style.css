@@ -101,3 +101,25 @@ header nav .branding {
 .hero .hero-right {
     margin-top: -1rem;
 }
+
+.about img {
+    width: 450px;
+    height: 500px;
+}
+
+section {
+    padding: 6rem 0;
+}
+
+.social_icons a {
+    text-decoration: none;
+}
+
+.social_icons a img {
+    width: 20px;
+    height: 20px;
+}
+
+.social_icons a img:hover {
+    background-color: var(--primary);
+}
