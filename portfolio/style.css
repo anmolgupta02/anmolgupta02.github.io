@@ -113,13 +113,43 @@ section {
 
 .social_icons a {
     text-decoration: none;
+    margin-right: 0.6rem;
+    border-radius: 50%;
+}
+
+.social_icon {
+    display: flex;
 }
 
 .social_icons a img {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
 }
 
 .social_icons a img:hover {
-    background-color: var(--primary);
+    background: var(--primary);
+    transition: all .3s ease;
+}
+
+.about h1 {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.about h1 span {
+    color: var(--primary);
+}
+
+.about h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.about p {
+    font-family: 'Lato', sans-serif;
+    color: var(--ternary);
+    line-height: 1.8rem;
+    margin-bottom: 1.5rem;
 }
