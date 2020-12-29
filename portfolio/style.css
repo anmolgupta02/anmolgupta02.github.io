@@ -215,6 +215,7 @@ section.services .card-wrapper .card:hover p {
 
 section.services .card-wrapper .card img {
     position: absolute;
+    /*important*/
     top: -3.5rem;
     left: 50%;
     transform: translateX(-50%);
