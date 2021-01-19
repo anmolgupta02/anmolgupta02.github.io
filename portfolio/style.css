@@ -232,3 +232,28 @@ section.services .card-wrapper .card p {
     color: var(--dark);
     line-height: 1.6rem;
 }
+
+section.freelancer {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/camera.png);
+    color: var(--pure);
+    clip-path: polygon( 0 0, 100% 0, 100% 100%, 67% 80%, 0 100%);
+    margin: 0.5rem;
+    margin-top: 1rem;
+}
+
+section.freelancer h1 {
+    font-weight: lighter;
+    margin-top: 1rem;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+section.freelancer h1 span {
+    color: var(--primary);
+}
+
+section.freelancer p {
+    margin-bottom: 2rem;
+    font-family: 'Lato', sans-serif;
+}
