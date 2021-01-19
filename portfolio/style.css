@@ -60,6 +60,15 @@ header nav .branding {
     margin-right: 6rem;
 }
 
+.right a {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+.right a:hover {
+    color: var(--primary);
+}
+
 .hero {
     padding: 3rem 0;
 }
@@ -256,4 +265,13 @@ section.freelancer h1 span {
 section.freelancer p {
     margin-bottom: 2rem;
     font-family: 'Lato', sans-serif;
+}
+
+section.freelancer a {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+section.freelancer a:hover {
+    color: var(--primary);
 }
