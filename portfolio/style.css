@@ -275,3 +275,12 @@ section.freelancer a {
 section.freelancer a:hover {
     color: var(--primary);
 }
+
+section.projects{
+    background: var(--light);
+}
+
+.projects h1{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
